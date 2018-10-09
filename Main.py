@@ -8,6 +8,9 @@ def addNumbersAndPrintResult(number1, number2):
     tal3 = addNumbers(tal1, tal2)
     print(str(tal1) + " + " + str(tal2) + " = " + str(tal3))
 
+def getRemainder(number1, number2):
+    return(number1 % number2)
+
 
 if __name__ == '__main__':
     tal1 = 10
@@ -17,3 +20,5 @@ if __name__ == '__main__':
     tal1 = 40
     tal2 = 60
     addNumbersAndPrintResult(tal1, tal2)
+
+    print(getRemainder(9,4))
