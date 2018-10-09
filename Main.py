@@ -6,7 +6,7 @@ def addNumbers(number1, number2):
 
 def addNumbersAndPrintResult(number1, number2):
     tal3 = addNumbers(tal1, tal2)
-    print(str(tal1) + " + " + str(tal2) + " = " + str(tal3 + 2))
+    print(str(tal1) + " + " + str(tal2) + " = " + str(tal3))
 
 
 if __name__ == '__main__':
